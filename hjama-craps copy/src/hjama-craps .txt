@@ -1,0 +1,30 @@
+Assignment name: Assignment 6
+TCSS 305 C: Programming Practicum, Autumn 2023
+
+
+Name: Hamda Jama
+UWNetID: hjama
+
+
+Assignment Overview:
+For this assignment we have to make a simple crap game following the rules provided and make in into a GUI application with our own controller view and model package by scratch. This assignment incorporated what we learned in past assignments and included layouts for JFrame and panels. As well as how to incorporate to use the controller package to help run between the model and view. First thing I did was make model class and made the methods that was needed to make the game work i first tested that by making a crap class that all module based to see how the logic worked then made a crap class that in the module class in the beginning i was kinda confused how i was supposed to make the change but after add methods and seeing what they did i got to the output i needed. then I made view class i was stuck in the beginning i made a simple window using no layout just to see if  my code would work but i had all my things in place but nothing was happening then the teacher bought up using property change listener so after what the teacher showed us i included it into the my code and then written listener for my  by buttons then i finally got to see. my things. after that i had to figure out how to make  my window look good so i looked up multiple different layouts till i set to the one i chose. then finally we had to add the bet and bank logic to the model then connected with the main in the controller package.
+
+
+Technical Impression:
+For this assignment I had lots of bugs or errors popping up that I had to fix the main thing were figuring out a were to place my enabling and disabling buttons to have a smoother game operations that was mostly trial and error as well as getting point to work correctly and i kept changing and moving things around trying to figure out hat would make it work but the end i just adde a property change to the point so i can save whenever it changes and be able to call another roll. this was the hardest from the project the rest was really figuring out if everything was working correctly and functioning properly and if there were problems going back and and changing the code. the second most troubling thing i dealt with in this assignment was the for tester and trying to to the wins and outcomes but couldn't test it correctly because inside my roll method i had the winning and losses as well as my dice randomly generating all in this one method. so when i tried to make a tester and and set number to prove i get the correct output nothing would work because i had a random generator rolling the dice so making dices in the tester would never work. for this problem i tired searching on line and it seemed adding set method for the dice and using a supplier lambda might fix my problem when i did this the tester worked half of the time. overall this was a fun assignment and really helped me understanding how to control a view  and get my game logic to work on a screen/frame or window this showed me i could make something similar like a game app or something even more better but gotter watch some videos to figure out how to do that.
+
+
+Unresolved problems in my submission:
+ When you input a bank amount press the return key before pressing the setBank button to see if it a valid input. The same for bet input bet then press the return key then click the set bet button. 
+
+
+Citations and Collaborations:
+https://docs.oracle.com/javase/tutorial/uiswing/layout/border.html
+https://www.youtube.com/watch?v=LIwLhlCXlIA
+https://tutorials.tinyappco.com/Java/SwingGUI
+
+Extra Credit Attempted:
+None.
+
+Questions:
+ 
